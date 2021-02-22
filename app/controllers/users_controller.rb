@@ -22,5 +22,12 @@ class UsersController < ApplicationController
 
     def destroy
     end
+
+    #def destroy
+        # Remove the user id from the session
+     #   session.delete(:current_user_id)
+        # Clear the memoized current user
+      ## redirect_to root_url
+      #end
     
 end
